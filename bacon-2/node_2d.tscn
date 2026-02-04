@@ -1,5 +1,17 @@
 [gd_scene format=3 uid="uid://bq1do4rhcey71"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node" type="Node" unique_id=838039028]
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1996225307]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=988079900]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1835557236]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1882143482]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1532338204]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=2133672941]
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=861309806]
